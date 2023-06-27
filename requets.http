@@ -1,0 +1,3 @@
+GET https://m.leskowsky.net/.well-known/webfinger?resource=acct:christiantest@m.leskowsky.net
+
+###
