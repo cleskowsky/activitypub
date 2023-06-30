@@ -6,31 +6,58 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Timeline Mockup</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
 
-<!-- Home timeline -->
-<div class="home-feed">
+<main style="margin-top: 20px">
 
-    <!-- A status update with user, content, media -->
-    <article>
-        <div>
-            <div class="profile-pic"><img src="https://placekitten.com/50/50" alt="A kitten"></div>
-            <div class="actor-info">
-                <div class="display-name">Christian Leskowsky</div>
-                <div class="account-id">@christiantest</div>
+    <style>
+        .col-4, .col-8 {
+            border: 1px solid red;
+            padding: 10px 0;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+
+            <!-- update status, followed actors (following) -->
+            <div class="col-4">
+                test
+            </div>
+
+            <!-- statuses -->
+            <div class="col-8">
+                <article>
+                    <div>
+                        <div class="profile-pic"><img src="https://placekitten.com/50/50" alt="A kitten"></div>
+                        <div class="actor-info">
+                            <div class="display-name">Christian Leskowsky</div>
+                            <div class="account-id">@christiantest</div>
+                        </div>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci animi aut consequatur
+                        cumque ducimus
+                        itaque
+                        labore neque nisi numquam obcaecati, quasi sint veritatis! Asperiores dolore dolorem iusto
+                        maxime quia?</p>
+
+                    <div class="media-gallery">
+                        <img src="https://placekitten.com/550/300" alt="A kitten">
+                    </div>
+                </article>
             </div>
         </div>
+    </div>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci animi aut consequatur cumque ducimus
-            itaque
-            labore neque nisi numquam obcaecati, quasi sint veritatis! Asperiores dolore dolorem iusto maxime quia?</p>
+</main>
 
-        <div class="media-gallery">
-            <img src="https://placekitten.com/550/300" alt="A kitten">
-        </div>
-    </article>
-
-</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 </html>
