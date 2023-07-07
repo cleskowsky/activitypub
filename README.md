@@ -17,3 +17,4 @@ This will eventually be a much-smaller-than-mastodon program that can participat
 * Tag timeline
 * Create, delete, boost object
 * Object timeline (thread)
+* Reply to object
