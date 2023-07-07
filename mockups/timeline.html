@@ -15,7 +15,7 @@
 <main style="margin-top: 20px">
 
     <style>
-        .col-4, .col-8 {
+        .col-3, .col-9 {
             border: 1px solid red;
             padding: 10px 0;
         }
@@ -25,19 +25,29 @@
         <div class="row">
 
             <!-- update status, followed actors (following) -->
-            <div class="col-4">
-                test
+            <div class="col-3">
+                <form action="/me">
+                    <textarea name="statusUpdate" id="statusUpdate" cols="30" rows="10"></textarea>
+                    <button>Toot</button>
+                </form>
+
+                <ul>
+                    <li>Today (10)</li>
+                    <li>Yesterday (100)</li>
+                    <li>Mentors (3)</li>
+                    <li>Pictures</li>
+                    <li>Videos</li>
+                </ul>
+
+                #diablo4, #starfield
             </div>
 
             <!-- statuses -->
-            <div class="col-8">
+            <div class="col-9">
                 <article>
                     <div>
-                        <div class="profile-pic"><img src="https://placekitten.com/50/50" alt="A kitten"></div>
-                        <div class="actor-info">
-                            <div class="display-name">Christian Leskowsky</div>
-                            <div class="account-id">@christiantest</div>
-                        </div>
+                        <img src="https://placekitten.com/50/50" alt="A kitten">
+                        Christian Leskowsky (@christian@m.leskowsky.net)
                     </div>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci animi aut consequatur
