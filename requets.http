@@ -1,3 +1,7 @@
+GET https://m.leskowsky.net/api/v1/timelines/public?limit=1
+Accept: application/json
+
+###
 GET https://m.leskowsky.net/.well-known/webfinger?resource=acct:christiantest@m.leskowsky.net
 
 ###
