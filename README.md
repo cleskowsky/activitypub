@@ -22,4 +22,4 @@ This will eventually be a much-smaller-than-mastodon program that can participat
 # Links
 
 * [Moose-todon](https://mstdn.ca/): Bumped into this the other day and loved it. The instance rules, and code of conduct are incredibly thoughtfully written. Much care and consideration went into spinning this little fellow up.
-* [Moose-todon](https://shop.mstdn.ca/): A store for the above instance to help cover hosting costs.
+* [Moose-todon.ca store](https://shop.mstdn.ca/): A store for the above instance to help cover hosting costs.
