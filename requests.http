@@ -1,7 +1,23 @@
-GET https://m.leskowsky.net/api/v1/timelines/public?limit=1
+
+# Get my account
+GET http://m.leskowsky.net/api/v1/accounts/109689100005856568
 Accept: application/json
 
 ###
+
+# Get a web finger response for christian
+GET http://m.leskowsky.net/.well-known/webfinger/?resource=acct:christian@m.leskowsky.net
+Accept: application/json
+
+###
+
+# Get 1 local status (Will always be by me)
+GET https://m.leskowsky.net/api/v1/timelines/public?limit=1&local=true
+Accept: application/json
+
+###
+
+# Get a web finger response for christiantest
 GET https://m.leskowsky.net/.well-known/webfinger?resource=acct:christiantest@m.leskowsky.net
 
 ###
